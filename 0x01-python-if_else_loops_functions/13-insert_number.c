@@ -7,6 +7,7 @@
  * @number: data type int number to be added
  * Return: 0 if no cycle || 1 if there is cycle
  */
+listint_t *insert_node(listint_t **head, int number)
 {
     listint_t *node = *head;
     listint_t *new;
